@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px;
+    background-color:transparent;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    margin:0px;
+    font-size:35px;
+    color:#000;
+    text-decoration: none;
+    font-weight:bolder;
+    
+}
+.navbar a{
+    font-size:18px;
+    color:#fff;
+    text-decoration: none;
+    font-weight:500px;
+    margin-left: 20px;
+    transition: 2s;
+}
+.navbar a:hover{
+    color:#00abf0;
+}
+.home{
+height:100vh;
+background: linear-gradient(-90deg,#031540 65%,#fff 35%);
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding:0 20px;
+}
+.home-image{
+    width:500px;
+    height:500px;
+    
+    border-radius: 50%;
+    background-color: #031540;
+    border: 25px solid #fff;
+    outline:15px solid #031540;
+}
+.home-image img{
+    position :relative;
+    max-width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+.home-content{
+    max-width:600px;
+    color:#fff;
+    text-align: left;
+}
+.home-content h1{
+    font-size: 55px;
+    line-height: 1.2;
+}
+.home-content h3{
+    font-size:40px;
+    color:#00abf0;
+    -webkit-text-stroke: .5px #fff;
+}
+.home-content p{
+    font-size:16px;
+    margin-top:20px;
+}
+.home-nav{
+    margin:25px 0 40px
+}
+.home-nav a{
+    display:inline-flex;
+    width:40px;
+    height:40px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius:50%;
+    color:#00abf0;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+    transform: .2s;
+}
+.home-content a:hover{
+    background:#00abf0;
+    color:#fff;
+    border-color:#00abf0;
+    box-shadow:0 0 10px #00abf0;
+}
+.btn{
+    padding:12px 35px;
+    background-color: #00abf0;
+    border-radius: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 0 12px #00abf0;
+}
+.btn:hover{
+    box-shadow: none;
+}
